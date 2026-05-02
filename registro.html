@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="STYLESHEET" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/88646c0913.js" crossorigin="anonymous"></script>
+    <title>La cocina de Juan</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <div>
+            <br>
+            <a href="index.html" class="botones">Home</a>
+            <a href="acerca.html" class="botones">Acerca de</a>
+            <a href="contacto.html" class="botones">Contacto</a>
+            <a href="registro.html" class="botones">Regístrese</a>
+            <a href="sucursales.html" class="botones">Sucursales</a>
+            <a href="clientes.html" class="botones">Nuestros Clientes</a>
+        </div>
+        <p class="titulo_encabezado">
+            La cocina de Juan
+        </p>
+    </header>
+    <menu>
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+                <label for="firstname">Nombre: </label><input type="text" name="firstname"
+                placeholder="Ingrese su nombre aquí..." required>
+                <br>
+                <label for="lastname"> Apellido: </label><input type="text" name="lastname"
+                placeholder="Ingrese su apellido aquí..." required>
+                <br>
+                <label for="street">Dirección: </label><input type="text" name="address"
+                placeholder="Ingrese su dirección aquí..." required>
+                <br>
+                <label for="city"> Ciudad: </label><input type="text" name="city" value="CABA" required>
+                <br>
+                <label for="zipcode"> Código Postal: </label><input type="text" name="zipcode"
+                placeholder="Ingrese su código postal aquí..." required>
+                <br>
+                <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy) </label><input type="text" name="birthdate"
+                required><br>
+            <p>Género
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="mujer" checked>Mujer
+                <input type="radio" name="gender" value="otro" checked>Otro
+            </p>
+            <p>Estudios:
+                <input type="checkbox" name="estudio" value="primarios"> Primarios
+                <input type="checkbox" name="estudio" value="secundarios"> Secundarios
+                <input type="checkbox" name="estudio" value="terciarios"> Terciarios
+                <input type="checkbox" name="estudio" value="universitarios"> Universitarios
+                <input type="checkbox" name="estudio" value="otros"> Otros
+            </p>
+            <label for="coments">Comentarios: </label><br><textarea name="coments" rows="5" cols="30">Escriba sus comentarios.</textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <br>
+        <p>Si usted hace click en el boton "Enviar", la información será enviada a la página show_data</p>
+        <br><br><br><br><br><br>
+    </menu>
+    <footer class="footer">
+        <br>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <br>
+        <p>Derechos Reservados @2020</p>
+        <br>
+    </footer>
+</body>
+
+</html>

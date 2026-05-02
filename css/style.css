@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botones {
+    background-color: grey;
+    border: 10px;
+    margin: 0px 5px;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    top: 10px;
+    left: 0;
+}
+.encabezado {
+    background-color: black;
+    width: 100%;
+}
+.titulo_encabezado {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#sopa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#acerca {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    color: white;
+    width: 100%;
+}
+
+form {
+    background-color: gray;
+    border-radius: 5px;
+    margin: 1% 20%;
+    padding: 2%;
+    width: 50%;
+}
+
+input[type=submit] {
+    width: 80%;
+    align-self: center;
+    background-color: rgb(82, 216, 118);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: greenyellow;
+}
+
+textarea {
+    width: 60%;
+}
+
+.galeria {
+  width: 85%;
+  margin: 0 auto 35px auto;
+}
+
+/* Clearfix */
+.galeria::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cliente {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cliente img {
+  max-width: 180px;
+  width: 80%;
+  height: 110px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .cliente {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .cliente {
+    width: 100%;
+  }
+}
+
+.mapas {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.direcciones_sucursales {
+    margin: 1% auto auto 1%;
+}
